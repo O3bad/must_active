@@ -1,19 +1,26 @@
-# Flutter
+# Firebase secrets
+lib/firebase_options.dart
+google-services.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Keystore & signing
+android/key.properties
+*.jks
+*.keystore
+
+# Flutter generated
 .dart_tool/
 build/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
-
-# Firebase & secrets
-google-services.json
-GoogleService-Info.plist
-android/key.properties
-*.jks
-*.keystore
-lib/firebase_options.dart   # optional — contains API keys
+pubspec.lock
 
 # IDE
 .idea/
 .vscode/
 *.iml
+
+# Cache
+assets/users_cache.json
